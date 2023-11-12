@@ -25,3 +25,4 @@ while True:
     )
     messages.append({"role": "assistant", "content": chat_response.choices[0].message.content})
     print("Assistant:", chat_response.choices[0].message.content)
+    print("")
